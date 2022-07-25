@@ -2,6 +2,10 @@ import { useState } from "react";
 import { Button } from "../button";
 import { MenuBtn } from "./types";
 
+/**
+ * ## 🚀 Header Menu
+ * Creates the Header Menu Component
+ */
 export const Header = ()=>{
   const [menus, setMenus]  = useState<Array<MenuBtn>>([
     {
